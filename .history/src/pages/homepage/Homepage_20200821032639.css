@@ -1,0 +1,10 @@
+.homepage {
+  height: 100vh;
+}
+
+.homepageHeader {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+}

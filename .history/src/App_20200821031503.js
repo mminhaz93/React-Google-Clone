@@ -1,0 +1,14 @@
+import React from 'react';
+import './App.css';
+import Homepage from "./pages/homepage/Homepage"
+import SearchPage from "./pages/searchPage/SearchPage"
+
+function App() {
+  return (
+    <div className="App">
+      ey
+    </div>
+  );
+}
+
+export default App;

@@ -1,0 +1,106 @@
+.searchPage {
+}
+
+.searchPageHeader {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  align-items: flex-start;
+  padding: 30px;
+  border-bottom: 1px solid lightgray;
+}
+
+.searchPageLogo {
+  object-fit: contain;
+  height: 30px;
+  margin-right: 50px;
+}
+
+.searchPageHeaderBody > .search{
+    height: 30px;
+}
+
+.searchPageHeaderBody > .search > .searchInput {
+  margin-top: 0;
+  width: unset;
+  margin: unset;
+  max-width: unset;
+}
+
+.searchPageOptions {
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+
+.searchPageOptions a,
+searchPageOptionsRight a {
+  text-decoration: none;
+  color: gray;
+}
+
+.searchPageOptionsLeft,
+.searchPageOptionsRight {
+  display: flex;
+}
+
+.searchPageOptionsRight {
+  margin-left: 80px;
+}
+
+.searchPageOption {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.searchPageOption a {
+  margin-left: 5px;
+}
+
+.searchPageResults {
+  max-width: 650px;
+  margin-top: 20px;
+  margin-left: 240px;
+  margin-bottom: 100px;
+}
+
+.searchPageResultsCount {
+  color: #70757a;
+  font-size: 14px;
+}
+
+.searchPageResult {
+  margin: 40px 0;
+}
+
+.searchPageLink {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+.searchPageResultTitle {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 400;
+  color: #1a0dab;
+}
+
+.searchPageResultTitle:hover {
+  text-decoration: underline;
+}
+
+.searchPageResultTitle > h2 {
+  font-weight: 500;
+}
+
+.searchPageResultSnippet {
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #4d5156;
+}

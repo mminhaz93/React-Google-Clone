@@ -1,0 +1,21 @@
+.homepage {
+  height: 100vh;
+}
+
+.homepageHeader {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+
+.homepageHeader a {
+  margin-right: 20px;
+  text-decoration: inherit;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 15px;
+}
+
+.homepageHeader a:hover {
+  text-decoration: underline;
+}

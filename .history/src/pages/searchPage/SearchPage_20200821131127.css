@@ -1,0 +1,11 @@
+.searchPage {
+}
+
+.searchPageHeader {
+}
+
+.searchPageLogo {
+  object-fit: contain;
+  height: 50px;
+  margin-right: 50px;
+}
